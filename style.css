@@ -12,7 +12,7 @@ html {
     justify-content: center;
 }
 
-/* First Section*/
+/* Card Section*/
 .card {
     margin-top: 50px;
     width: 350px;
@@ -28,6 +28,22 @@ html {
     height: 35px;
     width: 35px;
     background-color: hsl(217, 12%, 63%);
+}
+.notificationContainer {
+    visibility: hidden;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 185px;
+    height: 45px;
+    background-color: hsl(216, 12%, 8%);
+}
+.notificationTxt {
+    padding-top: 15px;
+    color: hsl(25, 97%, 53%);
+    text-align: center;
 }
 .formRating {
     display: flex;
