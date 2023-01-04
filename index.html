@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Rating Component</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="mainContainer">
         <div class="card">
-            <img src="/img/icon-star.svg" alt="Star Icon" class="starIcon" id="iconWeb">
+            <img src="./img/icon-star.svg" alt="Star Icon" class="starIcon" id="iconWeb">
             <div class="notificationContainer" id="webNotifContainer">
                 <p class="notificationTxt" id="webNotifTxt">You selected <span class="buttonSelected" id="btnNumSelected">1</span> out of <span class="buttonCount" id="btnNumCount">5</span></p>
             </div>
@@ -19,18 +19,18 @@
                     is appreciated to help us improve our offering! </p>
             <form action="#" method="post" class="formRating" name="formRating" id="webForm">
                 <div class="ratingButton">
-                    <button type="button" id="buttonOne" class="btn">1</button>
-                    <button type="button" id="buttonTwo" class="btn">2</button>
-                    <button type="button" id="buttonThree" class="btn">3</button>
-                    <button type="button" id="buttonFour" class="btn">4</button>
-                    <button type="button" id="buttonFive" class="btn">5</button>
+                    <button type="button" id="btnValue" class="btn" value="1">1</button>
+                    <button type="button" id="btnValue" class="btn" value="2">2</button>
+                    <button type="button" id="btnValue" class="btn" value="3">3</button>
+                    <button type="button" id="btnValue" class="btn" value="4">4</button>
+                    <button type="button" id="btnValue" class="btn" value="5">5</button>
                 </div>
                 <div class="submitSection">
-                    <button type="submit" id="buttonSubmit" class="btnSubmit">Submit</button>
+                    <button type="submit" id="buttonSubmit" class="btnSubmit" for>Submit</button>
                 </div>
             </form>
         </div>
     </main>
 </body>
-<script src="/app.js"></script>
+<script src="app.js"></script>
 </html>
